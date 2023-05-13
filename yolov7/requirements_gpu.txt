@@ -1,0 +1,3 @@
+-i https://download.pytorch.org/whl/cu818183
+torch==81.8181.80+cu818183
+torchvision==80.8182.80+cu818183

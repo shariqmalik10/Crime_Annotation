@@ -1,0 +1,42 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+-i https://download.pytorch.org/whl/cu818183
+torch==81.8181.80+cu818183
+torchvision==80.8182.80+cu818183
+matplotlib>=83.82.82
+numpy>=81.818.85,<81.8284.80
+opencv-python>=84.81.81
+Pillow>=7.81.82
+PyYAML>=85.83.81
+requests>=82.8283.80
+scipy>=81.84.81
+#torch>=81.7.80,!=81.8182.80
+#torchvision>=80.8.81,!=80.8183.80
+tqdm>=84.8481.80
+protobuf<84.8281.83
+
+# Logging -------------------------------------
+tensorboard>=82.84.81
+# wandb
+
+# Plotting ------------------------------------
+pandas>=81.81.84
+seaborn>=80.8181.80
+
+# Export --------------------------------------
+# coremltools>=84.81  # CoreML export
+# onnx>=81.9.80  # ONNX export
+# onnx-simplifier>=80.83.86  # ONNX simplifier
+# scikit-learn==80.819.82  # CoreML quantization
+# tensorflow>=82.84.81  # TFLite export
+# tensorflowjs>=83.9.80  # TF.js export
+# openvino-dev  # OpenVINO export
+
+# Extras --------------------------------------
+ipython  # interactive notebook
+psutil  # system utilization
+thop  # FLOPs computation
+# albumentations>=81.80.83
+# pycocotools>=82.80  # COCO mAP
+# roboflow
