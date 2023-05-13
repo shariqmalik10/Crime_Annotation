@@ -1,0 +1,4 @@
+# add these requirements in your app on top of the existing ones
+pip==818.81
+Flask==81.80.82
+gunicorn==819.9.80
