@@ -23,7 +23,9 @@ In this project, we have developed an application that integrates three models: 
   =========================================================================================
   
   Crime_Annotation/Scene_Detection/RealESRGAN_x4plus.pth
+  
   Crime_Annotation/Scene_Detection/wideresnet18_places365.pth.tar
+  
   Crime_Annotation/Scene_Detection/image_super_resolution/wideresnet18_places365.pth.tar
 
   =========================================================================================
