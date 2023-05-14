@@ -24,7 +24,7 @@ In this project, we have developed an application that integrates three models: 
 
   =========================================================================================
 
-- [Notes in order for the gui to run successfully]
+### Notes in order for the gui to run successfully
 
   There are absolute paths here and there that you need to change, in order for the app to run successfully
 
