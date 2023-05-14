@@ -34,9 +34,7 @@ In this project, we have developed an application that integrates three models: 
 
   There are absolute paths here and there that you need to change, in order for the app to run successfully
 
-  our working directory: "C:/Users/Tee/Desktop/FYP/GitFYP/Crime_Annotation"
-
-  our fyp folder: Crime_Annotation
+  our working directory: "..../Crime_Annotation"
 
   so just change the working directory (for both files) to: path/to/Crime_Annotation
 
