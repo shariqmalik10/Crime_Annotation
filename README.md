@@ -6,11 +6,15 @@ In this project, we have developed an application that integrates three models: 
 - [Files & Folders to download from google drive](https://drive.google.com/drive/folders/1m47PDxF1QzKEtduDrLCAYN2tRLLBjwV1?usp=share_link)
 
   Crime_Annotation/yolov7/best.pt
+  
   Crime_Annotation/yolov7/traced_model.pt
+  
   Crime_Annotation/traced_model.pt
+  
   Crime_Annotation/yolov7/yolov7.pt
+  
   Crime_Annotation/yolov7/runs
-  ^this whole folder (proof of tranfer learning done) is 28.3 GB
+  (this whole folder (proof of tranfer learning done) is 28.3 GB)
 
   =========================================================================================
 
