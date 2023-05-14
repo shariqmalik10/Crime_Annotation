@@ -1,7 +1,7 @@
 # CCTV Crime Annotation
-## our fyp topic: Incorporate Interactive and transfer learning for automated video annotation
+## Our fyp topic: Incorporate Interactive and transfer learning for automated video annotation
 
-In this folder, we have an application integrated with 3 models: object detection, human action recgonition, scene detection
+In this project, we have developed an application that integrates three models: object detection, human action recognition, and scene detection. The application is designed to analyze videos and provide insights based on these three models.
 
 - [Files & Folders to download from google drive]()
 
