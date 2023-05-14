@@ -74,7 +74,7 @@ git clone
 
   =========================================================================================
 
-- [Notes about human_action_recognition model (mmaction2's UniFormerV2):
+[Notes about human_action_recognition model (mmaction2's UniFormerV2):
 ](https://github.com/open-mmlab/mmaction2/blob/main/configs/recognition/uniformerv2/README.md)
 
   We ran our code on cpu, because our device on has 4GB of dedicated GPU memory, our har requires more than that. So if your GPU on your device has a at least 8GB of dedicated GPU memory, you can just comment line 16 and uncomment line 14 (for both analyse_vid and analyse_vid2), so that it uses that gpu, instead of cpu for a faster runtime.
