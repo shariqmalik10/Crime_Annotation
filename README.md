@@ -39,7 +39,7 @@ git clone
 
   =========================================================================================
 
-### Notes in order for the gui to run successfully
+## Notes in order for the gui to run successfully
 
   There are absolute paths here and there that you need to change, in order for the app to run successfully
 
@@ -48,7 +48,7 @@ git clone
   so just change the working directory (for both files) to: path/to/Crime_Annotation
 
 
-  #### gui.py
+  ### gui.py
   
   working_dir line 17
   
@@ -60,7 +60,7 @@ git clone
 
 
 
-  #### run_placesCNN_unified.py
+  ### run_placesCNN_unified.py
   
   file_name_category line 69
   
