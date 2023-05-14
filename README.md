@@ -39,20 +39,18 @@ In this project, we have developed an application that integrates three models: 
   so just change the working directory (for both files) to: path/to/Crime_Annotation
 
 
-  gui.py
+  #### gui.py
   
   working_dir line 17
   
   C:/Users/Tee/Desktop/FYP/GitFYP/Crime_Annotation/mmaction2 line 54 & 55
 
-
-
-  #there isn't a need to change the name of the env, if the user is following the instructions of creating the env using the yaml file
+  There isn't a need to change the name of the env, if the user is following the instructions of creating the env using the yaml file
   the_cmd = 'conda run -n lastfyp python analyse_vid.py {}'.format(vid_file) line 60 (the name of the env this command is running on)
 
 
 
-  run_placesCNN_unified.py
+  #### run_placesCNN_unified.py
   
   file_name_category line 69
   
