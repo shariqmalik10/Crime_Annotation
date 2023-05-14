@@ -12,17 +12,17 @@ In this project, we have developed an application that integrates three models: 
   Crime_Annotation/yolov7/runs
   ^this whole folder (proof of tranfer learning done) is 28.3 GB
 
-  =======================================================================================================
+  ==================================================================================================
 
   Crime_Annotation/mmaction2/checkpoints/uniformerv2-large-p14-res336_clip-kinetics710-pre_u32_kinetics600-rgb_20221219-f984f5d2.pth
 
-  =======================================================================================================
+  =================================================================================================
   
   Crime_Annotation/Scene_Detection/RealESRGAN_x4plus.pth
   Crime_Annotation/Scene_Detection/wideresnet18_places365.pth.tar
   Crime_Annotation/Scene_Detection/image_super_resolution/wideresnet18_places365.pth.tar
 
-  =======================================================================================================
+  =================================================================================================
 
 - [Notes in order for the gui to run successfully]
 
@@ -52,7 +52,7 @@ In this project, we have developed an application that integrates three models: 
   file_name_W line 100
   model_file line 124
 
-  =======================================================================================================
+  =================================================================================================
 
 - [Notes about human_action_recognition model (mmaction2's UniFormerV2):
 ](https://github.com/open-mmlab/mmaction2/blob/main/configs/recognition/uniformerv2/README.md)
