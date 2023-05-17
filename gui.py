@@ -85,7 +85,7 @@ def main():
         os.chdir(working_dir)
         
     #upload file
-    uploaded_file = st.file_uploader("Choose a video file (.mp4 format)", type=['mp4', 'mpeg', 'mov'])
+    uploaded_file = st.file_uploader("Choose a video file (.mp4 format)", type=['mp4'])
     if uploaded_file is not None:
         tfile = tempfile.NamedTemporaryFile(delete=False)
         tfile.write(uploaded_file.read()) #type: ignore
