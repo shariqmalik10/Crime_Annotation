@@ -9,6 +9,9 @@ from detect_txt import *
 
 
 def detect_final(source):
+    if source is None:
+        raise ValueError("Input video file is required")
+    
     path, object_detections = detect(source=source,weights='yolov7/yolov7.pt')
     print(object_detections)
     # isCrime = 
