@@ -4,6 +4,14 @@ import subprocess
 import json
 import numpy as np
 
+def main():
+    parser = argparse.ArgumentParser(description='Human Action Recognition')
+    parser.add_argument('input_file', help='input video file')
+    args = parser.parse_args()
+
+    # Call the action recognition function with the input video file
+    # Only takes one video as input
+    print(human_action_recognition(args.input_file))
 
 def get_both_vid_and_top5labels(input_video):
     # Analysing one vid at a time
@@ -51,10 +59,4 @@ def get_both_vid_and_top5labels(input_video):
     return(top5_labels)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Human Action Recognition')
-    parser.add_argument('input_file', help='input video file')
-    args = parser.parse_args()
-
-    # Call the action recognition function with the input video file
-    # Only takes one video as input
-    get_both_vid_and_top5labels(args.input_file)
+    main()
