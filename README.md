@@ -7,9 +7,11 @@ In this project, we have developed an application that integrates three models: 
 ## Setup
 
 ```shell
-conda create 
-git clone 
-
+git clone https://github.com/atou0004/Crime_Annotation
+cd Crime_Annotation
+conda create -f fyp_environment.yaml
+conda activate lastfyp
+pip install -e .
 
 ```
 - [Files & Folders to download from google drive](https://drive.google.com/drive/folders/1m47PDxF1QzKEtduDrLCAYN2tRLLBjwV1?usp=share_link)
