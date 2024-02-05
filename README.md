@@ -95,10 +95,16 @@ Will be added in the next section
 A Pre-trained model also known as a ‘Places365CNN’ model was taken and on that model we added preprocessing steps to make it adapt to a new task which is scene annotation in CCTV footage. The pre-processing steps included slicing off a frame of the video from the halfway point of the video(as a major assumption we are asked to take in this project by our supervisor is to assume that all videos that are going to be used as input by the models contain only one scene) and then the frame was used as input for super resolution models to enhance the quality of the taken snapshot. 
 
 #### Preview of the scene detection model in action 
-![Demo of Scene Detection Model](https://github.com/shariqmalik10/Crime_Annotation/blob/dd706e36daeb1e741cf821c893c1f86c9f12c9df/scene_detection_demo.png)
+<img src="https://github.com/shariqmalik10/Crime_Annotation/blob/dd706e36daeb1e741cf821c893c1f86c9f12c9df/scene_detection_demo.png" width="50%" alt="Demo Of Scene Detection Model">
 
 ### Object detection model 
 A combination of object detection models has been implemented with the participation of transfer learning techniques. State-to-the-art model in computer vision called 'You Only Look Once (version 7)'  was chosen as the base model responsible for object detection in the crime video. The combination consists of two Yolov7 models, one of the models (pre-trained) is tasked to detect common objects (80 classes in COCO dataset) while another customised model is primarily trained to detect hand-sized objects and light weapons in a video. The fusion of these models is done efficiently by the concatenation of the output in a dictionary.  Also, it is worth mentioning that the ultimate model accepts both video and photo as input.
 
 #### Preview of the model in action 
 ![Demo of Object Detection Model](https://github.com/shariqmalik10/Crime_Annotation/blob/dd706e36daeb1e741cf821c893c1f86c9f12c9df/object_detection_demo.png)
+
+## Discussion on the model as a whole 
+
+### The final UI 
+The UI was created using the Python framework Streamlit
+
