@@ -110,20 +110,27 @@ The UI was created using the Python framework Streamlit.
 We will be going through the steps that are involved in obtaining a prediction 
 
 1. The base UI.
-   <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step1.png" width="50%" alt="Demo">
+   
+   <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step1.png" width="50%" alt="Demo">   
+   
    Here we can see a simple UI with the option of uploading a video from your personal device. (Note: Upload .mp4 files only in order to ensure there are no issues at later stage)
 
-2. Video preview
-   <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step2.png" width="50%" alt="Demo">
+3. Video preview
+   
+   <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step2.png" width="50%" alt="Demo">   
+   
    Here you can preview the video selected for model prediction
 
-3. Scene Prediction
+5. Scene Prediction
+   
    <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step3.png" width="50%" alt="Demo">
 
-4. Action Detection
+7. Action Detection
+   
    <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step4.png" width="50%" alt="Demo">
 
-5. Object Detection
+9. Object Detection
+    
    <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step5.png" width="50%" alt="Demo">
 
 ## Issues/Limitations
