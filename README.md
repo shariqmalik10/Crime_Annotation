@@ -13,7 +13,7 @@ conda create -f fyp_environment.yaml
 conda activate lastfyp
 ```
 
-
+### Files and Folders Setup 
 - [Files & Folders to download from google drive](https://drive.google.com/drive/folders/1m47PDxF1QzKEtduDrLCAYN2tRLLBjwV1?usp=share_link)
 
   Crime_Annotation/yolov7/best.pt
@@ -84,7 +84,5 @@ conda activate lastfyp
   analyse_vid.py is for listing out top5 actions in the video
 
   analyse_vid2.py is for saving the top5 actions in a json file and saving the analysed videos
-
-
 
   Here, these requirements, e.g., code standards, are not that strict as in the core package. Thus, developers from the community can implement their algorithms much more easily and efficiently in MMAction2. We appreciate all contributions from community to make MMAction2 greater.
