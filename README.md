@@ -115,23 +115,23 @@ We will be going through the steps that are involved in obtaining a prediction
    
    Here we can see a simple UI with the option of uploading a video from your personal device. (Note: Upload .mp4 files only in order to ensure there are no issues at later stage)
 
-3. Video preview
+2. Video preview
    
    <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step2.png" width="50%" alt="Demo">   
    
    Here you can preview the video selected for model prediction
 
-5. Scene Prediction
+3. Scene Prediction
    
    <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step3.png" width="50%" alt="Demo">
 
-7. Action Detection
+4. Action Detection
    
-   <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step4.png" width="50%" alt="Demo">
-
-9. Object Detection
-    
    <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step5.png" width="50%" alt="Demo">
+
+5. Object Detection
+    
+   <img src="https://github.com/shariqmalik10/Crime_Annotation/blob/b00dae2273bfcd95141dcc997057e2b9b8fc7689/Step4.png" width="50%" alt="Demo">
 
 ## Issues/Limitations
 - A major reason for not hosting the website on a server was due to limitation of time.  
