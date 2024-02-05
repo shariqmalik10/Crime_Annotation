@@ -50,7 +50,7 @@ conda activate lastfyp
   so just change the working directory (for both files) to: path/to/Crime_Annotation
 
 
-  ### gui.py
+  ### User Interface file - gui.py
   
   working_dir line 17
   
@@ -76,13 +76,34 @@ conda activate lastfyp
 
   =========================================================================================
 
+## Discussion on the models used 
+
+### Action Detection Model 
 [Notes about human_action_recognition model (mmaction2's UniFormerV2):
 ](https://github.com/open-mmlab/mmaction2/blob/main/configs/recognition/uniformerv2/README.md)
 
-  We ran our code on cpu, because our device on has 4GB of dedicated GPU memory, our har requires more than that. So if your GPU on your device has a at least 8GB of dedicated GPU memory, you can just comment line 16 and uncomment line 14 (for both analyse_vid and analyse_vid2), so that it uses that gpu, instead of cpu for a faster runtime.
+We ran our code on cpu, because our device on has 4GB of dedicated GPU memory, our har requires more than that. So if your GPU on your device has a at least 8GB of dedicated GPU memory, you can just comment line 16 and uncomment line 14 (for both analyse_vid and analyse_vid2), so that it uses that gpu, instead of cpu for a faster runtime.
 
-  analyse_vid.py is for listing out top5 actions in the video
+'analyse_vid.py' is for listing out top5 actions in the video
 
-  analyse_vid2.py is for saving the top5 actions in a json file and saving the analysed videos
+'analyse_vid2.py' is for saving the top5 actions in a json file and saving the analysed videos
 
-  Here, these requirements, e.g., code standards, are not that strict as in the core package. Thus, developers from the community can implement their algorithms much more easily and efficiently in MMAction2. We appreciate all contributions from community to make MMAction2 greater.
+Here, these requirements, e.g., code standards, are not that strict as in the core package. Thus, developers from the community can implement their algorithms much more easily and efficiently in MMAction2. We appreciate all contributions from community to make MMAction2 greater.
+
+#### Preview of the action detection model in action 
+
+
+
+
+
+### Scene Detection Model 
+A Pre-trained model also known as a ‘Places365CNN’ model was taken and on that model we added preprocessing steps to make it adapt to a new task which is scene annotation in CCTV footage. The pre-processing steps included slicing off a frame of the video from the halfway point of the video(as a major assumption we are asked to take in this project by our supervisor is to assume that all videos that are going to be used as input by the models contain only one scene) and then the frame was used as input for super resolution models to enhance the quality of the taken snapshot. 
+
+#### Preview of the scene detection model in action 
+
+
+
+### Object detection model 
+A combination of object detection models has been implemented with the participation of transfer learning techniques. State-to-the-art model in computer vision called 'You Only Look Once (version 7)'  was chosen as the base model responsible for object detection in the crime video. The combination consists of two Yolov7 models, one of the models (pre-trained) is tasked to detect common objects (80 classes in COCO dataset) while another customised model is primarily trained to detect hand-sized objects and light weapons in a video. The fusion of these models is done efficiently by the concatenation of the output in a dictionary.  Also, it is worth mentioning that the ultimate model accepts both video and photo as input.
+
+#### Preview of the model in action 
