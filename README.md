@@ -101,7 +101,7 @@ A Pre-trained model also known as a ‘Places365CNN’ model was taken and on th
 A combination of object detection models has been implemented with the participation of transfer learning techniques. State-to-the-art model in computer vision called 'You Only Look Once (version 7)'  was chosen as the base model responsible for object detection in the crime video. The combination consists of two Yolov7 models, one of the models (pre-trained) is tasked to detect common objects (80 classes in COCO dataset) while another customised model is primarily trained to detect hand-sized objects and light weapons in a video. The fusion of these models is done efficiently by the concatenation of the output in a dictionary.  Also, it is worth mentioning that the ultimate model accepts both video and photo as input.
 
 #### Preview of the model in action 
-![Demo of Object Detection Model](https://github.com/shariqmalik10/Crime_Annotation/blob/dd706e36daeb1e741cf821c893c1f86c9f12c9df/object_detection_demo.png)
+<img src="https://github.com/shariqmalik10/Crime_Annotation/blob/dd706e36daeb1e741cf821c893c1f86c9f12c9df/object_detection_demo.png" width="50%" alt="Demo Of Object Detection Model">
 
 ## Discussion on the model as a whole 
 
